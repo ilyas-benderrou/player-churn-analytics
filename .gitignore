@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# WoWAH data (Kaggle, CC0) and cached parquet files - downloaded by src/prepare_data.py
+data/raw/
+data/processed/
+*.zip
+*.parquet
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# local run log (contains local paths)
+outputs/run_log.txt
