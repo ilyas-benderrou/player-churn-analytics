@@ -158,7 +158,7 @@ python -m venv .venv
 .venv\Scripts\activate             # Windows (Linux/macOS: source .venv/bin/activate)
 pip install -r requirements.txt
 python src/prepare_data.py         # downloads the data (~75 MB) and builds sessions (~2 min)
-python src/run_analysis.py         # EDA, segmentation, models, figures (~5 min on a laptop CPU)
+python src/run_analysis.py         # EDA, segmentation, models, figures (a few minutes on a laptop CPU)
 ```
 
 `run_analysis.py` also calls the preparation step automatically if the cached files are missing.
